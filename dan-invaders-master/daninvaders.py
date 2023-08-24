@@ -694,6 +694,7 @@ class DanInvaders(object):
                 currentTime = time.get_ticks()
                 # Reset enemy starting position
                 self.enemyPosition = ENEMY_DEFAULT_POSITION
+                self.round_number = START_ROUND_NUMBER
                 self.create_game_over(currentTime)
 
             display.update()
